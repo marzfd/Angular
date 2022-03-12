@@ -2,7 +2,8 @@
   background: #21838315;
   margin: 5px;
   padding: 10px 20px;
-  border: 10px solid transparent;
+  border-radius: 10px;
+  border-left: 10px solid transparent;
 }
 
 .task h3 {
