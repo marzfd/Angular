@@ -1,0 +1,7 @@
+<div
+  class="task"
+  [ngStyle]="{'border-left-color': task.completed ? 'green' : 'red'}"
+>
+  <h3>{{ task.title }}</h3>
+  <p>{{ task.description }}</p>
+</div>
