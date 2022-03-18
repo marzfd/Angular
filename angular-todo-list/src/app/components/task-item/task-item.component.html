@@ -1,6 +1,7 @@
 <div
   class="task"
   [ngStyle]="{'border-left-color': task.completed ? 'green' : 'red'}"
+  (dblclick)="onTaskClick(task)"
 >
   <h3>
     {{ task.title }}
