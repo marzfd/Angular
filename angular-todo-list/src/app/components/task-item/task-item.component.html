@@ -1,15 +1,19 @@
 <div
   class="task"
   [ngStyle]="{'border-left-color': task.completed ? 'green' : 'red'}"
-  (dblclick)="onTaskClick(task)"
 >
-  <h3>
-    {{ task.title }}
+  <div class="title">
+    <p>{{ task.title }}</p>
+  </div>
+  <div class="icon">
     <fa-icon
       (click)="onDelete(task)"
       [ngStyle]="{color: 'red'}"
       [icon]="faTimes"
     ></fa-icon>
-  </h3>
-  <p>{{ task.description }}</p>
+    <input
+      type="checkbox"
+      (change)="onTaskClick(task)"
+    />
+  </div>
 </div>
