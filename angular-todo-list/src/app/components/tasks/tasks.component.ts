@@ -23,6 +23,6 @@ export class TasksComponent implements OnInit {
 
   updateTask(task: Task) {
     task.completed = !task.completed;
-    console.log(task.completed);
+    this.taskService.updateTask(task).subscribe();
   }
 }
