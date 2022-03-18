@@ -22,14 +22,18 @@
   flex-direction: column;
 }
 
+fa-icon {
+  font-size: 21px;
+}
+
 input {
   width: 15px;
   height: 15px;
   margin-right: 5px;
   cursor: pointer;
-  margin-top: 10px;
+  margin-top: 5px;
   position: relative;
-  left: -2px;
+  left: -1px;
 }
 
 .task .title {
