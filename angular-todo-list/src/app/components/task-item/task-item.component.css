@@ -32,8 +32,6 @@ input {
   margin-right: 5px;
   cursor: pointer;
   margin-top: 5px;
-  position: relative;
-  left: -1px;
 }
 
 .task .title {
@@ -49,3 +47,23 @@ input {
   display: flex;
 }
 
+@media screen and (max-width: 768px) {
+  .task {
+    font-size: smaller;
+    border-radius: 8px;
+    border-left: 8px solid transparent;
+    padding: 10px;
+  }
+
+  fa-icon {
+    font-size: 19px;
+  }
+
+  input {
+    margin-top: 1px;
+    position: relative;
+    left: -1px;
+    bottom: 3px;
+  }
+
+}
