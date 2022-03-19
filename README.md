@@ -5,4 +5,4 @@
 <br/>
 
 ## Projects:
-* [TODO-List](https://tiv0s1.csb.app/) [[Code](https://github.com/marzfd/Angular/tree/main/angular-todo-list)]
+* TODO-List [[Code](https://github.com/marzfd/Angular/tree/main/angular-todo-list)]
