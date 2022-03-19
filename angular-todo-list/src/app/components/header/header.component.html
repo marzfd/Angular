@@ -2,6 +2,8 @@
   <img src="assets/img/logo.png" alt="logo" class="logo">
   <h1>{{ title }}</h1>
   <app-button
+    color="{{ showAddTask ? 'orange' : 'teal' }}"
+    text="{{ showAddTask ? 'Close' : 'Add' }}"
     (btnClick)="toggleAddTask()"
   ></app-button>
 </header>

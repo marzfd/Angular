@@ -1,0 +1,26 @@
+<form
+  *ngIf="showAddTask"
+  class="add-form"
+  (submit)="addTask()"
+>
+  <div class="form-control">
+    <label for="text">Add Your Task</label>
+    <input
+      type="text"
+      name="title"
+      [(ngModel)]="title"
+      id="text"
+      placeholder="Task Title"
+    >
+  </div>
+  <div class="form-control">
+    <input
+      type="checkbox"
+      name="completed"
+      [(ngModel)]="completed"
+      id="completed"
+      [ngStyle]="{'display':'none'}"
+    >
+  </div>
+  <button type="submit" class="btn btn-block">Add</button>
+</form>
