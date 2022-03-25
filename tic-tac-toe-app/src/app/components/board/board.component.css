@@ -1,0 +1,62 @@
+.main-container {
+  text-align: center;
+}
+
+h1 {
+  font-weight: 900;
+  margin: 15px;
+  font-size: 48px;
+}
+
+.start-btn {
+  margin-top: 30px;
+  background-color: #fdd62b;
+  font-size: 15px;
+  padding: 5px 15px;
+}
+
+.end-btn {
+  margin-top: 30px;
+  background-color: red;
+  color: aliceblue;
+  font-size: 15px;
+  padding: 5px 15px;
+}
+
+.filed {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.board {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.left-player,
+.right-player {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  font-size: larger;
+  letter-spacing: 2px;
+}
+
+.left-player {
+  color: red;
+}
+
+.right-player {
+  color: green;
+}
+
+.current-status {
+  width: 100%;
+  font-size: 20px;
+  font-weight: 500;
+}

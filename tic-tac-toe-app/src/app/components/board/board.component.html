@@ -1,0 +1,33 @@
+<div class="main-container">
+  <h1>Tic Tac Toe</h1>
+  <div class="filed">
+    <p class="current-status">Click to start a new game</p>
+  </div>
+  <div class="filed">
+    <button
+      *ngIf="this.game.gameStatus === 0"
+      (click)="startGame()"
+      mat-raised-button
+      class="start-btn"
+    >
+      Start Game Now !
+    </button>
+  </div>
+
+  <div *ngIf="this.game.gameStatus === 1" class="board">
+    <div class="left-player">Player One</div>
+    <app-square></app-square>
+    <div class="right-player">Player Two</div>
+  </div>
+
+  <div class="filed">
+    <button
+      *ngIf="this.game.gameStatus === 1"
+      (click)="endGame()"
+      mat-raised-button
+      class="end-btn"
+    >
+      Stop the Game !
+    </button>
+  </div>
+</div>
