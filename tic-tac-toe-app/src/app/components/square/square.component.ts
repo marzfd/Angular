@@ -17,9 +17,25 @@ export class SquareComponent implements OnInit {
       this.game.setSquare(position, this.game.currentPlayer);
       const letter = this.game.currentPlayer === 1 ? 'X' : 'O';
       square.currentTarget.innerHTML = letter;
-      square.currentTarget.style.color = 'red';
+      letter === 'X'
+        ? (square.currentTarget.style.color = 'red')
+        : (square.currentTarget.style.color = 'green');
       square.currentTarget.style.fontSize = '5rem';
     }
+
+    await this.game.checkWinner().then((end: boolean) => {
+      if (this.game.gameStatus === 0 && end) {
+        const info = document.querySelector('.current-status');
+        info!.innerHTML = 'The Winner is Player ' + this.game.currentPlayer;
+      }
+    });
+
+    await this.game.checkNoWinner().then((end: boolean) => {
+      if (this.game.gameStatus === 0 && end) {
+        const info = document.querySelector('.current-status');
+        info!.innerHTML = 'No Winner ! Click to start a new game';
+      }
+    });
 
     this.game.changePlayer();
 

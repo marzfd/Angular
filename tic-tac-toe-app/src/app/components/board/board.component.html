@@ -15,9 +15,15 @@
   </div>
 
   <div *ngIf="this.game.gameStatus === 1" class="board">
-    <div class="left-player">Player One</div>
+    <div class="left-player">
+      <p>Player One</p>
+      <p>X</p>
+    </div>
     <app-square></app-square>
-    <div class="right-player">Player Two</div>
+    <div class="right-player">
+      <p>Player Two</p>
+      <p>O</p>
+    </div>
   </div>
 
   <div class="filed">

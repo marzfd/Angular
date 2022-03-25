@@ -25,6 +25,6 @@ export class BoardComponent implements OnInit {
     this.game.gameStatus = 0;
     const infoEl: HTMLElement | null =
       document.querySelector('.current-status');
-    infoEl!.innerHTML = 'Click to start a new game';
+    infoEl!.innerHTML = 'Game Over ! Click to start a new game';
   }
 }
