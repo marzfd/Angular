@@ -6,4 +6,4 @@
 
 ## Projects:
 * TODO List App [[Code](https://github.com/marzfd/Angular/tree/main/angular-todo-list)]
-* Tic Tac Toa Game [[Code](https://github.com/marzfd/Angular/tree/main/tic-tac-toe-app)]
+* Tic Tac Toa Game [[Code](https://github.com/marzfd/Angular/tree/main/tic-tac-toe-app)] (Code-along)
