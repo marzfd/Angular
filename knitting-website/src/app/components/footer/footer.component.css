@@ -1,6 +1,6 @@
 .footer {
   background-color: #41116d;
-  padding: 20px;
+  padding: 20px 20px 0 20px;
   overflow: hidden;
   color: #fff;
   position: sticky;
@@ -18,7 +18,7 @@ p {
 a {
   color: #fff;
   text-decoration: none;
-  padding: 0 5px;
+  padding: 0 8px;
   font-size: 17px;
 }
 
