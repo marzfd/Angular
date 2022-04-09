@@ -40,8 +40,8 @@
 <div class="container mt-5 mb-5">
   <h1 class="mb-3">The Most Popular Clothes</h1>
   <div class="row">
-    <div class="col-lg-3 mt-3" *ngFor="let cloth of clothesData">
-      <div class="clothes-box">
+    <div class="col-lg-3 mt-3" *ngFor="let cloth of clothesData; index as i">
+      <div class="clothes-box" *ngIf="i <= 3">
         <img src="{{ cloth.image }}" alt="" />
         <h1>{{ cloth.name }}</h1>
         <p>{{ cloth.price | currency }}</p>
