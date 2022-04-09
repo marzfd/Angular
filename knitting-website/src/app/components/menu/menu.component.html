@@ -1,1 +1,17 @@
-<p>menu works!</p>
+<div class="container mt-5, mb-5">
+  <div class="row">
+    <div class="col-lg-4 mt-3" *ngFor="let cloth of clothesData">
+      <div class="clothes-box mt-3 mb-3">
+        <img src="{{ cloth.image }}" alt="" />
+        <h1>{{ cloth.name }}</h1>
+        <p class="fst-italic">{{ cloth.description }}</p>
+        <p>Price: {{ cloth.price | currency }}</p>
+        <p>Quantity: {{ cloth.quantity }}</p>
+        <button class="btn buyBtn">
+          Add to cart
+          <i class="bi bi-cart3"></i>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>

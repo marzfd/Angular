@@ -1,0 +1,28 @@
+.clothes-box {
+  padding: 10px;
+}
+
+.clothes-box img {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.clothes-box h1 {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.buyBtn {
+  color: #fff;
+  text-decoration: none;
+  padding: 8px 12px;
+  background-color: #41116d;
+  border-radius: 8px;
+  font-size: 15px;
+}
+
+.buyBtn i {
+  margin-left: 5px;
+}
