@@ -41,3 +41,25 @@
   color: #fff;
   padding-right: 15px;
 }
+
+.container {
+  text-align: center;
+}
+
+.step-box {
+  background-color: #41116d80;
+  padding: 20px;
+  margin: 15px;
+  border-radius: 8px;
+  color: #fff;
+}
+
+.step-box h1 {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.step-box p {
+  font-size: 20px;
+  font-style: italic;
+}
