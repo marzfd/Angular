@@ -11,13 +11,17 @@ export class OrderDetailsService {
     {
       id: 1,
       name: 'Sweater',
+      description:
+        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi',
       price: 150,
-      quantity: 1,
+      quantity: 5,
       image: 'assets/images/sweater.jpg',
     },
     {
       id: 2,
       name: 'Cardigan',
+      description:
+        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi',
       price: 200,
       quantity: 1,
       image: 'assets/images/cardigan.jpg',
@@ -25,20 +29,26 @@ export class OrderDetailsService {
     {
       id: 3,
       name: 'Blanket',
+      description:
+        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi',
       price: 250,
-      quantity: 1,
+      quantity: 3,
       image: 'assets/images/blanket.jpg',
     },
     {
       id: 4,
       name: 'Gloves',
+      description:
+        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi',
       price: 50,
-      quantity: 1,
+      quantity: 2,
       image: 'assets/images/gloves.jpg',
     },
     {
       id: 5,
       name: 'Pullover',
+      description:
+        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi',
       price: 200,
       quantity: 1,
       image: 'assets/images/pullover.jpg',
@@ -46,22 +56,28 @@ export class OrderDetailsService {
     {
       id: 6,
       name: 'Cap',
+      description:
+        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi',
       price: 50,
-      quantity: 1,
+      quantity: 5,
       image: 'assets/images/cap.jpg',
     },
     {
       id: 7,
       name: 'Shawl',
+      description:
+        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi',
       price: 100,
-      quantity: 1,
+      quantity: 3,
       image: 'assets/images/shawl.jpg',
     },
     {
       id: 8,
       name: 'Set',
+      description:
+        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi',
       price: 300,
-      quantity: 1,
+      quantity: 8,
       image: 'assets/images/set.jpeg',
     },
   ];
