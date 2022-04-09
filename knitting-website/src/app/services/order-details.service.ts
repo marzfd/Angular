@@ -80,5 +80,14 @@ export class OrderDetailsService {
       quantity: 8,
       image: 'assets/images/set.jpeg',
     },
+    {
+      id: 9,
+      name: 'Pants',
+      description:
+        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi',
+      price: 100,
+      quantity: 4,
+      image: 'assets/images/pants.jpg',
+    },
   ];
 }
