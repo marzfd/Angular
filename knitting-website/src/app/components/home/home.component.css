@@ -63,3 +63,37 @@
   font-size: 20px;
   font-style: italic;
 }
+
+.clothes-box {
+  padding: 10px;
+}
+
+.clothes-box img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.clothes-box img:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.clothes-box h1 {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.viewBtn {
+  background-color: #41116d99;
+  padding: 10px;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+}
+
+.viewBtn i {
+  margin-left: 10px;
+}

@@ -10,6 +10,8 @@
     </a>
   </div>
 </div>
+
+<!-- steps -->
 <div class="container mt-5 mb-5">
   <h1 class="mb-3">How to get your clothes ?</h1>
   <div class="row">
@@ -32,4 +34,22 @@
       </div>
     </div>
   </div>
+</div>
+
+<!-- clothesBox -->
+<div class="container mt-5 mb-5">
+  <h1 class="mb-3">The Most Popular Clothes</h1>
+  <div class="row">
+    <div class="col-lg-3 mt-3" *ngFor="let cloth of clothesData">
+      <div class="clothes-box">
+        <img src="{{ cloth.image }}" alt="" />
+        <h1>{{ cloth.name }}</h1>
+        <p>{{ cloth.price | currency }}</p>
+      </div>
+    </div>
+  </div>
+  <a routerLink="menu" class="viewBtn">
+    <span>See More</span>
+    <i class="bi bi-arrow-right"></i>
+  </a>
 </div>
