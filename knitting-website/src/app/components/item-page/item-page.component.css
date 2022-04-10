@@ -1,0 +1,27 @@
+.details {
+  font-size: 18px;
+}
+
+img {
+  border-radius: 20px;
+  height: 600px;
+  object-fit: cover;
+}
+
+form {
+  margin-top: 20px;
+  width: 100%;
+}
+
+input,
+textarea {
+  font-size: 15px;
+}
+
+.orderBtn {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 10px;
+  background-color: #41116d;
+  border-radius: 8px;
+}

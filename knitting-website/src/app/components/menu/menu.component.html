@@ -7,7 +7,7 @@
         <p class="fst-italic">{{ cloth.description }}</p>
         <p>Price: {{ cloth.price | currency }}</p>
         <p>Quantity: {{ cloth.quantity }}</p>
-        <button class="btn buyBtn">
+        <button class="btn buyBtn" [routerLink]="['/menu', cloth.id]">
           Add to cart
           <i class="bi bi-cart3"></i>
         </button>
