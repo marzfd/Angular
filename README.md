@@ -6,4 +6,5 @@
 
 ## Projects:
 * TODO List App [[Code](https://github.com/marzfd/Angular/tree/main/angular-todo-list)]
+* [Knitting Website](https://brilliant-cannoli-bcb3da.netlify.app/) [[Code](https://github.com/marzfd/Angular/tree/main/knitting-website)]
 * Tic Tac Toa Game [[Code](https://github.com/marzfd/Angular/tree/main/tic-tac-toe-app)] (Code-along)
